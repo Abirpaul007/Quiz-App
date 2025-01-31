@@ -32,7 +32,7 @@ const Quiz = () => {
   const fetchQuestions = async (selectedMode) => {
     setLoading(true);
     setError(false);
-    try {9
+    try {
       const response = await fetch(
         `https://opentdb.com/api.php?amount=10&difficulty=${selectedMode}&type=multiple`
       );
