@@ -16,7 +16,8 @@ It is a quiz app for testing your intelligence.
 const Quizapp = {
    
     Questions: ["From anything"],
-    technologies:["React.js","CSS"]
+    technologies:["React.js","CSS","HTML","Javascript","Tailwind CSS"]
+    api:[""]
 }
 ```
 Check out the live version of the app [here](https://abirpaul007.github.io/Quiz-App/).
